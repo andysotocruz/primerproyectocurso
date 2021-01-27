@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+.fondo{
+    display: flex;
+    background-color: #227681;
+    height: 100vh;
+    align-items: center;
+}
+.inhaus{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    position: absolute;
+    left: 82%;
+    top: 35%;;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    width: 252px;
+    height: 515px;
+}
+.fipza{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    position: absolute;
+    left: 60%;
+    top: 35%;;
+    width: 265px;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    height: 515px;
+
+}
+.nadron{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    position: absolute;
+    left: 38%;
+    top: 35%;;
+    width: 265px;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    height: 515px;
+
+}
+.pcrent{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    position: absolute;
+    left: 14%;
+    top: 35%;
+    width: 265px;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    height: 515px;
+
+}
+H2{
+    top: 1%;
+    font-size: 80PX;
+    position: absolute;
+    left: 45%;
+    text-shadow: -28px 28px 3px rgba(223, 84, 42, 0.25);
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+
+}
+.boton{
+    display: flex;
+    background-color: cornsilk;
+    border-radius: 100%;
+    width: 23.969px;
+    height: 24px;
+    padding: 25px;
+    transition: all 3s;
+    animation:desfase 3s linear;
+    }
+.boton:hover{
+     transform: rotate(360deg);
+    }
+.e{
+    position: absolute;
+    left: 19%;
+    top: 33%;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    color: white;
+
+
+}
+.i{position: absolute;
+    left: 45%;
+    top: 33%;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    color: white;
+
+
+}
+.o{position: absolute;
+    left: 67%;
+    top: 33%;;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    color: white;
+
+
+}
+.u{position: absolute;
+    left: 84%;
+    bottom: 59%;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    animation:desfase 3s linear;
+    color: white;}
+    
+    @keyframes desfase{
+    from{
+        transform: scale(1.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+
+    p{
+        color: white;
+    }

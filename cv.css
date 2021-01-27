@@ -1,0 +1,79 @@
+*{ margin: 0;
+}
+.home{
+    display: flex;
+    background-color:#227681;
+    height: 100vh;
+    }
+ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+}
+p{
+    margin: 15%;
+}
+.boton{
+    display: flex;
+    background-color: cornsilk;
+    border-radius: 100%;
+    width: 23.969px;
+    height: 24px;
+    padding: 25px;
+    transition: all 3s;
+    animation:desfase 3s linear;
+    }
+.name{
+    display: flex;
+    width: 128%;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Dancing Script', cursiva;
+    font-size: 120px;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    text-shadow: -28px 28px 3px rgba(202, 189, 41, 0.25);
+    animation:desfase 3s linear;
+}
+.content{
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    border-radius:10px;
+    background-color: #42ABB3;
+    text-align: center;
+    font-family: 'Dancing Script', cursiva;
+    font-size: 30px;
+    padding:0;
+    padding-top: 40px;
+    padding-bottom: 38px;
+    animation:desfase 3s linear;
+}
+.information{
+    margin: 10px;
+}
+.imagen{
+    width: 12%;
+    border-radius: 100px;
+    position: absolute;
+    top: 390px;
+    right: 170px;
+    animation:desfase 3s linear; 
+}
+
+.boton:hover{
+    transform: rotate(360deg);
+}
+
+@keyframes desfase{
+    from{
+        transform: scale(1.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
