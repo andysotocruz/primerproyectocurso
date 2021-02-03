@@ -1,0 +1,28 @@
+.bg-promasa {
+  background-color: #0a55a4;
+}
+
+.color-promasa {
+  color: #0a55a4;
+}
+
+.nav-links {
+  transition: all 0.5s;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.banner-container {
+  height: 250px;
+  padding: 0 50%;
+}
+
+.banner-text {
+  border-top: 5px solid #0a55a4;
+  border-bottom: 5px solid #0a55a4;
+  font-weight: normal;
+}

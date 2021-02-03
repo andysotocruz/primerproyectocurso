@@ -1,0 +1,6 @@
+label { text-transform: uppercase;}
+
+fieldset {
+    display:flex;
+    justify-content: center;
+}

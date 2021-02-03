@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.clon{
+    width: 25%;
+}
+
+.imagen{
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 60%;
+}
+.text{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 14px;
+    }
+    .concierto{
+        width: 100%;
+    }
+.contenido{
+    position: relative;
+}
+h1,h2{
+    position: absolute;
+    color: white;
+    }
+h1{
+    top: 28%;
+    left: 25%;
+    font-size: 90px;
+}
+h2{
+top: 47%;
+left: 18%;
+text-align: center;
+font-size: 30px;
+}
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    font-family: "Circular", Helvetica, Arial;    
+    font-size: 30px;
+    margin: 7px;
+    border-bottom: #00B172 3px solid;
+    width:30%;
+    position: absolute;
+    left:35%;
+    font-weight:900;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.vocina{
+    display: flex;
+    width: 240px;
+    margin-top: 144px;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+.voci{
+    height: 145px;
+    margin-left: 150px;
+}
+.barra{
+    display: flex;
+    margin-left: 60px;
+}
+.barras{
+    height: 145px;
+}
+.phon{
+    display: flex;
+    margin-right: 100px;
+}
+.phones{
+    width: 189px;
+    margin-right: 80px;
+}
+.linea{
+    position: relative;
+    bottom: -83%;
+    left: 40px;
+    color: #00B172;
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 32px;
+    font-weight: 700;
+    width: 392px;
+    margin-right: 0;
+    
+}
+.linea1{
+    position: relative;
+    top: -68px;
+    left: 640px;
+    color: #00B172;
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 32px;
+    font-weight: 700;
+    width: 199px;
+    margin-right: 0;
+}
+.linea2{
+    position: relative;
+    top: -136px;
+    left: 960px;
+    color: #00B172;
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 32px;
+    font-weight: 700;
+}
+.pe1{
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    left: -517px;
+    bottom: 150px;
+    text-align: center;
+}
+.pe2{
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    top: -232px;
+    left: 0px;
+    text-align: center;
+}
+.pe3{
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    top: -350px;
+    left: 450px;
+    text-align: center;
+}
+.articulos{
+    background-color:#00B172 ;
+    display: flex;
+    margin-top: 15%;
+    height: 830px;
+    width: 1300px;
+    margin-left: 60px;
+    margin-right: 60px;
+    flex-direction: column;
+    font-family: "Circular", Helvetica, Arial;
+    font-size: 24px;
+    font-weight: 100;
+    color:white;
+}
+h3{
+    border-bottom: white 4px solid;
+    width: 426px;
+    margin-left: 96px;
+}
+.andy{
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    bottom: -1166px;
+    }
+.west{
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    bottom: -1513px;
+    height: 756px;
+}
+.soto{
+    width: 426px;
+    margin-left: 96px;
+}
+.lol{
+    height: 5px;
+}

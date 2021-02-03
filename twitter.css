@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+.contenido{
+    display: flex;
+    background-color:white;
+    width: 1420px;
+    height: 725px;
+    justify-content: center;
+}
+.pajarito{
+    width: 4%;
+    position: absolute;
+    left: 37%;
+    margin-top: 12px;
+}
+.inicio{
+    font-size: 30px;
+    font-family: Chirp, Verdana, System;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+    left: 37%;
+    bottom: 582px;
+    height: 43px;
+    width: 300px;
+}
+.cool{
+    display: flex;
+    align-items: center;
+    width: 366px;
+    height: 325px;
+    }
+.usuario{
+    display: flex;
+    width: 350px;
+    height: 45px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+.clave{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 375px;
+    margin-top: -140px;
+}
+.contraseña{
+    width: 350px;
+    height: 45px;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-top: -140px;
+}
+.presionar{
+    display: flex;
+    position: absolute;
+    top: 325px;
+    left: 528px;
+    width: 350px;
+}
+.boton{
+    display: flex;
+    height: 35px;
+    width: 472px;
+    background-color: white;
+    border-radius: 80px;
+    background-color: rgb(27, 149, 224, .5);
+    width: 450px;
+    height: 51px;
+    
+}
+.sesion{
+    position: absolute;
+    left: 130px;
+    bottom: 15px;
+}
+.fin{
+    position: absolute;
+    bottom: 180px;
+}
+.pregunta{
+    color: rgb(27, 149, 224);
+    position: absolute;
+    left: 24px;
+    bottom:55px;
+    font-size: 15px;
+    width: 200px;
+    }
+.punto{
+    font-size: 25px;
+    position: absolute;
+    left: 190px;
+    top: -126px;
+}
+
+.registro{
+    color: rgb(27, 149, 224);
+    position: absolute;
+    left: 251px;
+    bottom: 55px;
+    font-size: 15px;
+    width: 100px;
+}
